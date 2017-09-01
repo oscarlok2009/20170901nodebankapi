@@ -72,7 +72,7 @@ var transfer = async (transfrom, transto, amount) => {
         var daily_translimit = daily_translimit + daily_transrecords[x].amount;
     }
 
-    if (daily_translimit + amount >= 10000) {
+    if (daily_translimit + amount > 10000) {
         status = "over_limit"
         return status;
     }
