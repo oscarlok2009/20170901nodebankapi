@@ -44,7 +44,7 @@ API doc
     - Required Input body: ["firstName", "lastName", "accountNumber", "identity"]
     - Notice:
         - Account number will auto generated which state in the response json
-        - Please copy the account number for further testing 
+        - **Please copy the responsed account number for further testing**
 
     - Request Body Example:
 ```
