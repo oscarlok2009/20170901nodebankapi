@@ -46,7 +46,7 @@ API doc
         - Account number will auto generated which state in the response json
         - Please copy the account number for further testing 
 
-- Request Body Example:
+    - Request Body Example:
 ```
 {
 "firstName": "Oscar",
@@ -64,7 +64,7 @@ API doc
     - Notice:
         - Status only have two options ["open", "close"]
 
-- Request Body Example:
+    - Request Body Example:
 ```
 {
 "status": "close"
@@ -79,7 +79,7 @@ API doc
     - Notice:
         - Type is the operation type
 
-- Request Body Example:
+    - Request Body Example:
 ```
 {
 "type": "view",
@@ -96,7 +96,7 @@ API doc
         - Type is the operation type
         - Amount must be greater than 100 and is 100 multiple
 
-- Request Body Example:
+    - Request Body Example:
 ```
 {
 "type": "deposit",
@@ -116,7 +116,7 @@ API doc
         - Amount must be greater than 100 and is 100 multiple
         - Account balance must be more than or equal to 100, otherwise the transaction will not be accepted
 
-- Request Body Example:
+    - Request Body Example:
 ```
 {
 "type": "withdraw",
