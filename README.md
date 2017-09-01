@@ -1,5 +1,5 @@
 Public Accessible URL
----------------------
+=====================
 
 - Deployed in Heroku URL (Bank API gateway): https://tranquil-crag-38598.herokuapp.com/
     - [Attention]: **First loading time** may be more than 15 seconds (The server need to wake up, because it will sleep when the serives no longer use)
@@ -49,9 +49,9 @@ API doc
 - Request Body Example:
 ```
 {
-	"firstName": "Oscar",
-	"lastName":	"Lok",
-	"identity": "Y1234567"
+"firstName": "Oscar",
+"lastName":	"Lok",
+"identity": "Y1234567"
 }
 ```
 
@@ -67,7 +67,7 @@ API doc
 - Request Body Example:
 ```
 {
-	"status": "close"
+"status": "close"
 }
 ```
 
@@ -82,8 +82,8 @@ API doc
 - Request Body Example:
 ```
 {
-	"type": "view",
-	"acctNumber": "735000000001"
+"type": "view",
+"acctNumber": "735000000001"
 }
 ```
 
@@ -99,9 +99,9 @@ API doc
 - Request Body Example:
 ```
 {
-	"type": "deposit",
-	"acctNumber": "735000000001",
-    "amount": 100
+"type": "deposit",
+"acctNumber": "735000000001",
+"amount": 100
 }
 ```
 
@@ -119,9 +119,9 @@ API doc
 - Request Body Example:
 ```
 {
-	"type": "withdraw",
-	"acctNumber": "735000000001"
-    "amount": 100
+"type": "withdraw",
+"acctNumber": "735000000001",
+"amount": 100
 }
 ```
 
@@ -140,19 +140,19 @@ API doc
 - Same Owner Request Body Example:
 ```
 {
-	"type": "transfer",
-	"acctNumber": "735000000001",
-    "transto": "286000000002",
-    "amount": 100
+"type": "transfer",
+"acctNumber": "735000000001",
+"transto": "286000000002",
+"amount": 100
 }
 ```
 
 - Diff Owner Request Body Example:
 ```
 {
-	"type": "transfer",
-	"acctNumber": "735000000001",
-    "transto": "103000000003",
-    "amount": 100
+"type": "transfer",
+"acctNumber": "735000000001",
+"transto": "103000000003",
+"amount": 100
 }
 ```
