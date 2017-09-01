@@ -88,11 +88,7 @@ var transfer = async (transfrom, transto, amount) => {
         var charge = 100;
         var approval = await axios({
             method: 'get',
-            url: 'http://handy.travel/test/success.json',
-            proxy: {
-                host: '127.0.0.1',
-                port: 808
-            }
+            url: 'http://handy.travel/test/success.json'
         });
         if (approval.data.status === "success") {
             owner.balance = owner.balance - amount - charge;

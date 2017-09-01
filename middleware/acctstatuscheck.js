@@ -3,6 +3,12 @@ var Account = require('../models/account');
 var statuscheck = async (req, res, next) => {
     try{
         var account = await Account.findOne({"acctNumber": req.body.acctNumber})
+        if (!account) {
+            res.status(404).json({
+                title: 'No Account found',
+                error: {message: 'Account not found.'}
+            });  
+        }
     } catch (e) {
         res.status(500).json({
             title: 'An error occurred',
