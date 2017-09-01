@@ -13,8 +13,8 @@ Public Accessible URL
 Setup Project Step
 ===================================
 
-Requirements for build up the project (If test in public URL, skip this part)
----------------------------------------------------------------------------------
+Build project locally (If test in public URL, skip this part)
+-------------------------------------------------------------
 - Install the MongoDB(This project is using the latest version 3.4.6) [MongoDB@3.4.6](https://www.mongodb.com/download-center?jmp=homepage#community)
     - Launch the server in your local machine with port **27017**
 
